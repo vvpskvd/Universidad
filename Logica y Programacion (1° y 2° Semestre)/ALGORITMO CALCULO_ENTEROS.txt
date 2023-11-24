@@ -1,0 +1,10 @@
+Algoritmo CALCULO_ENTEROS
+	Definir num1, num2 Como Real
+	Escribir "Digite dos numeros"
+	Leer num1, num2
+	Si num1>num2 Entonces
+		Escribir num1, " es mayor a ", num2
+	SiNo
+		Escribir num2, " es mayor a ", num1
+	Fin Si
+FinAlgoritmo

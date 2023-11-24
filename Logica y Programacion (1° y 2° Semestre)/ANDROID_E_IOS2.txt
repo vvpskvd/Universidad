@@ -1,0 +1,50 @@
+Algoritmo ANDROID_E_IOS
+	//Definiciones
+	Definir est, ini2 Como Real
+	Definir ini Como Caracter
+	Definir Android, Ios, invalid Como Entero
+	
+	//Base
+	Hacer
+		Escribir "Ingrese su codigo de estudiante"
+		Leer est
+		Escribir "Ingrese una opcion de dato"
+		Escribir "Recuerde que 1 es Android y 2 es IOs"
+		Leer ini
+		Si ini="1" Entonces
+			Android=Android+1
+		Sino
+			Si ini="2" Entonces
+				IOs=IOs+1
+			SiNo
+				Escribir "Opcion invalida, ingrese un dato valido"
+				invalid=invalid+1
+			FinSi
+		Fin Si
+			Escribir "¿Desea ingresar otro dato?"
+			Escribir "1 para continuar y 2 para acabar"
+		Leer ini2
+		Borrar Pantalla
+	Hasta Que ini2=2
+	
+	//Calculo votos
+Si Android==IOs Entonces
+	Escribir "Empate"
+		Escribir "Votos de Android: " Android
+		Escribir "Votos de IOs: " IOs
+		Escribir "Votos invalidos: " invalid
+Sino
+Si Android > IOs Entonces
+	Escribir "Gano la plataforma Android"
+		Escribir "Votos de Android: " Android
+		Escribir "Votos de IOs: " IOs
+		Escribir "Votos invalidos: " invalid
+SiNo
+	Escribir "Gano la plataforma IOs"
+		Escribir "Votos de Android: " Android
+		Escribir "Votos de IOs: " IOs
+		Escribir "Votos invalidos: " invalid
+FinSi
+FInSi
+
+FinAlgoritmo

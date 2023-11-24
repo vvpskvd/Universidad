@@ -1,0 +1,9 @@
+Algoritmo ejercicio_7
+	Definir weith, kg, g Como Real
+	Escribir "¿Cuantas libras quiere convertir?"
+	Leer weith
+	kg=weith/2.205
+	g=weith*453.6
+	Escribir "En kilogramos, las ", weith " Libras serian : ", kg " kilogramos."
+	Escribir "En gramos, las ", weith " Libras serian : ", g " gramos."
+FinAlgoritmo

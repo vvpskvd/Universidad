@@ -1,0 +1,13 @@
+Algoritmo ejercicio_9
+	Definir firstexam, secondexam, thirdexam, finalexam, ini Como Real
+	Escribir "Escriba la definivita del primer previo."
+	Leer firstexam
+	Escribir "Escriba la definivita del segundo previo."
+	Leer secondexam
+	Escribir "Escriba la definivita de la tercera nota."
+	Leer thirdexam
+	Escribir "Escriba la definitiva de la nota final."
+	Leer finalexam
+	ini=(firstexam*0.25)+(secondexam*0.25)+(thirdexam*0.2)+(finalexam*0.3)
+	Escribir ini
+FinAlgoritmo

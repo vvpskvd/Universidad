@@ -1,0 +1,49 @@
+Algoritmo CONTABILIDAD_ZAPATOS
+	//Definiciones de las variables
+	Definir nombre_cliente Como Caracter
+	Definir calzado_zp Como Real
+	Definir precio_calzado_zp Como Real
+	Definir total_calzado_zp Como Real
+	Definir calzado_sd Como Real
+	Definir precio_calzado_sd Como Real
+	Definir calzado_bt Como Real
+	Definir cantidad_calzado_bt Como Real
+	Definir total_calzado_bt Como Real
+	Definir total_sindescuento Como Real
+	Definir descuento_total Como Real
+	Definir total_completo Como Real
+	Definir iva_total Como Real
+	
+	//Nombre del cliente
+	Escribir "Escriba su nombre completo en pantalla "
+	Leer nombre_cliente
+	Escribir "Bienvenido " nombre_cliente,", tenemos 3 diferentes tipos de calzado, los zapatos cuestan $10000 COP, las sandalias cuestan $15000 COP y las botas cuestan $20000 COP"
+	//Cantidad de zapatos
+	Escribir "Entonces " nombre_cliente, " ¿Cuantos zapatos deseas?"
+	Leer calzado_zp
+	precio_calzado_zp = 10000
+	total_calzado_zp = precio_calzado_zp * calzado_zp
+	//Cantidad de sandalias
+	Escribir nombre_cliente, " ¿Cuantas sandalias deseas?"
+	Leer calzado_sd
+	precio_calzado_sd = 15000
+	total_calzado_sd = precio_calzado_sd * calzado_sd
+	//Cantidad de botas
+	Escribir nombre_cliente, " ¿Cuantas botas deseas?"
+	Leer calzado_bt
+	precio_calzado_bt = 20000
+	total_calzado_bt = precio_calzado_bt * calzado_bt
+	//Formula sin descuento
+	total_sindescuento = total_calzado_zp + total_calzado_sd + total_calzado_bt
+	
+	Escribir nombre_cliente, "El total de tu compra sin descuento seria ", total_sindescuento " COP"
+	//Formula con descuento e IVA
+	descuento_total = total_sindescuento*0.08
+	total_completo = total_sindescuento-descuento_total
+	iva_total = total_sindescuento*0.19
+	//Pantalla final
+	Escribir nombre_cliente, " este seria tu descuento: " descuento_total
+	Escribir nombre_cliente, " este seria tu total a pagar con nuestro descuento del 8%: " total_completo
+	Escribir nombre_cliente, " el subtotal con el impuesto IVA (19%) seria: " total_completo+iva_total
+	
+FinAlgoritmo

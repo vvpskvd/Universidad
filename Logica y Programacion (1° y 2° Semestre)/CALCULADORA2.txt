@@ -1,0 +1,67 @@
+Algoritmo CALCULADORA2
+	//Definiciones
+	Definir num1, num2, resul Como Real
+	Definir operacion Como Caracter
+	num1=0
+	num2=0
+	
+	//Bases
+	Escribir "Que operacion desea realizar"
+	Escribir "(1) Sumar / (2) Restar / (3) Multiplicar / (4) Dividir / (5) Salir"
+	Leer operacion
+	
+	//Programa
+	Mientras operacion = "1" Hacer
+		Borrar Pantalla
+		Escribir "Digite dos numeros enteros"
+		Leer num1, num2
+		resul = num1 + num2
+		Escribir "Su operacion es " num1 "+" num2 "=" resul
+		
+		Escribir "¿Que otra operacion desea realizar?"
+		Escribir "(1) Sumar / (2) Restar / (3) Multiplicar / (4) Dividir / (5) Salir"
+		Leer operacion
+	Fin Mientras
+	
+	Mientras operacion = "2" Hacer
+		Borrar Pantalla
+		Escribir "Digite dos numeros enteros"
+		Leer num1, num2
+		resul = num1 - num2
+		Escribir "Su operacion es " num1 "-" num2 "=" resul
+		
+		Escribir "¿Que otra operacion desea realizar?"
+		Escribir "(1) Sumar / (2) Restar / (3) Multiplicar / (4) Dividir / (5) Salir"
+		Leer operacion
+	Fin Mientras
+	
+	Mientras operacion = "3" Hacer
+		Borrar Pantalla
+		Escribir "Digite dos numeros enteros"
+		Leer num1, num2
+		resul = num1 * num2
+		Escribir "Su operacion es " num1 "*" num2 "=" resul
+		
+		Escribir "¿Que otra operacion desea realizar?"
+		Escribir "(1) Sumar / (2) Restar / (3) Multiplicar / (4) Dividir / (5) Salir"
+		Leer operacion
+	Fin Mientras
+	
+	Mientras operacion = "4" Hacer
+		Borrar Pantalla
+		Escribir "Digite dos numeros enteros"
+		Leer num1, num2
+		resul = num1 / num2
+		Escribir "Su operacion es " num1 "/" num2 "=" resul
+		
+		Escribir "¿Que otra operacion desea realizar?"
+		Escribir "(1) Sumar / (2) Restar / (3) Multiplicar / (4) Dividir / (5) Salir"
+		Leer operacion
+	Fin Mientras
+	
+	Si operacion = "5" Entonces
+		Borrar Pantalla
+		Escribir "¡Gracias por usar nuestra calculadora, esperamos verte pronto!"
+	FinSi
+	
+FinAlgoritmo

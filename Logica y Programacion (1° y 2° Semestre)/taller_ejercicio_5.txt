@@ -1,0 +1,8 @@
+Algoritmo ejercicio_5
+	Definir ini, num Como Real
+	ini=0
+	Para num<-1 Hasta 100 Con Paso 1 Hacer
+		ini=num
+		Escribir num
+	Fin Para
+FinAlgoritmo

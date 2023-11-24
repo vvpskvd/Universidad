@@ -1,0 +1,35 @@
+Algoritmo horario_empresa
+	Definir horario Como Cadena
+	Definir sueldo_xhora, hora, sueldo_total Como Entero
+	
+	Escribir "Ingrese en que turno trabaja"
+	Leer horario
+	
+	Segun horario Hacer
+		"mañana":
+			Escribir "Digite las horas trabajadas"
+			Leer horas
+			Escribir "Digite cuanto cobra por hora"
+			Leer sueldo_xhora
+			sueldo_total=sueldo_xhora*horas
+			Escribir "El sueldo total seria $", sueldo_total
+		"tarde":
+			Escribir "Digite las horas trabajadas"
+			Leer horas
+			Escribir "Digite cuanto cobra por hora"
+			Leer sueldo_xhora
+			sueldo_total=sueldo_xhora*horas*1.2
+			Escribir "El sueldo total seria $", sueldo_total
+		"noche":
+			Escribir "Digite las horas trabajadas"
+			Leer horas
+			Escribir "Digite cuanto cobra por hora"
+			Leer sueldo_xhora
+			sueldo_total=sueldo_xhora*horas*1.45
+			Escribir "El sueldo total seria $", sueldo_total
+		De Otro Modo:
+			Escribir "Turno inexistente"
+	Fin Segun
+	
+	
+FinAlgoritmo

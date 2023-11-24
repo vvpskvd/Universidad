@@ -1,0 +1,53 @@
+Algoritmo CAPITALES_CO_CAFETEROS
+	Definir tp_capital, cap_an, cap_cc, cap_cd, cap_cld, cap_hlam, cap_na, cap_nds, cap_qd, cap_rs, cap_tm, cap_vdc Como Caracter
+	Escribir "¿Que capital desea saber de Norte de Santander?"
+	Leer tp_capital
+	Segun tp_capital Hacer
+		"Nariño" o "NARIÑO" o "nariño":
+			cap_na="Pasto"
+			Escribir "Su capital es: " cap_na
+			
+		"Norte de santander" o "Norte De Santander" o "Norte De santander" o "NORTE DE SANTANDER" o "nortedesantander":
+			cap_nds="San Jose Cucuta"
+			Escribir "Su capital es: " cap_nds
+			
+		"Antioquia" o "antioquia" o "ANTIOQUIA":
+			cap_an="Medellin"
+			Escribir "Su capital es: " cap_an
+			
+		"Valle Del Cauca" o "Valle del cauca" o "Valle Del cauca" o "VALLE DEL CAUCA" o "valle del cauca" o "valledelcauca":
+			cap_vdc="Santiago de cali"
+			Escribir "Su capital es: " cap_vdc
+			
+		"Cundinamarca" o "CUNDINAMARCA" o "Cundinamarca":
+			cap_cd="Bogota"
+			Escribir "Su capital es: " cap_cd
+			
+		"Huila" o "HUILA" o "huila":
+			cap_hla="Neiva"
+			Escribir "Su capital es: " cap_hla
+			
+		"Cauca" o "cauca" o "CAUCA":
+			cap_cc="Popayan"
+			Escribir "Su capital es: " cap_cc
+			
+		"Tolima" o "TOLIMA" o "tolima":
+			cap_tm="Tolima"
+			Escribir "Su capital es: " cap_tm
+			
+		"Caldas" o "CALDAS" o "caldas":
+			cap_cld="Manizales"
+			Escribir "Su capital es: " cap_cld
+			
+		"Quindio" o "QUINDIO" o "quindio":
+			cap_qd="Armenia"
+			Escribir "Su capital es: " cap_qd
+			
+		"Risaralda" o "RISARALDA" o "risaralda":
+			cap_rs="Pereira"
+			Escribir "Su capital es: " cap_rs
+			
+		De Otro Modo:
+			Escribir "Departamento incorrecto o Ningun departamento encontrado en zona cafetera."
+	Fin Segun
+FinAlgoritmo

@@ -1,0 +1,44 @@
+Algoritmo DET_SOLDADOS
+	//Definiciones
+	Definir sexo_ind Como Caracter
+	Definir estatura_ind Como Real
+	Definir edad_ind Como Entero
+	
+	//Comandos Iniciales
+	Escribir "¿Cual es su sexo?"
+	Escribir "1 para hombre y 2 para mujer"
+	Leer sexo_ind
+	
+	//Afirmacion hombre
+	Si sexo_ind=="1" Entonces
+		Escribir "¿Cual es su edad?"
+		Leer edad_ind
+		
+		Escribir "¿Cual es su estatura?"
+		Leer estatura_ind
+		
+		Si edad_ind>=18 y edad_ind<=24 y estatura_ind>1.65 Entonces
+			Escribir "Estas admitido para el ejercito, felicitaciones!"
+		SiNo
+			Escribir "No eres admitido en el ejercito, tienes que adquirir la libreta militar."
+		FinSi
+		
+	FinSi
+	
+	//Afirmacion mujer
+	Si sexo_ind=="2" Entonces
+		Escribir "¿Cual es su edad?"
+		Leer edad_ind
+		
+		Escribir "¿Cual es su estatura?"
+		Leer estatura_ind
+		
+		Si edad_ind>=20 y edad_ind<=25 y estatura_ind>1.60 Entonces
+			Escribir "Estas admitida para el ejercito, felicitaciones!"
+		SiNo
+			Escribir "No eres admitida en el ejercito, tienes que adquirir la libreta militar."
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo

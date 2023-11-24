@@ -1,0 +1,15 @@
+Algoritmo MAYOROMENOR_DEEDAD_2
+
+	Definir edad Como Entero
+	Definir nombre Como Caracter
+	Escribir "Digite su nombre completo"
+	Leer nombre
+	Escribir "Digite su edad"
+	Leer edad
+		Si edad>=18 Entonces
+			Escribir nombre, " usted mayor de edad."
+		SiNo
+			Escribir nombre, " usted menor de edad."
+		Fin Si
+		
+FinAlgoritmo

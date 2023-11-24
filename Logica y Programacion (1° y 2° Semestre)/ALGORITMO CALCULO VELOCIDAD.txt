@@ -1,0 +1,9 @@
+Algoritmo algoritmo_calculo_vlcdad
+	Escribir "Digite su distancia total recorrida "
+	Leer distancia1
+	Escribir "Digite su tiempo total a recorrer "
+	Leer tiempo1
+	vlcdadtotal = (distancia1/tiempo1)
+	Escribir "La velocidad total que recorre es ", vlcdadtotal
+	imprimir(vlcdadtotal)
+FinAlgoritmo

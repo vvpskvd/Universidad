@@ -1,0 +1,8 @@
+Algoritmo potencia_azar
+	Escribir "Digita un numero al azar "
+	Leer num1
+	Escribir "Digite la potencia a elevar "
+	Leer potencia
+	result = (num1^potencia)
+	Escribir  "El resultado de la potencia es ", result
+FinAlgoritmo

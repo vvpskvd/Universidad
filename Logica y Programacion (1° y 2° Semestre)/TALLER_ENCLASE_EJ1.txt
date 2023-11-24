@@ -1,0 +1,21 @@
+Algoritmo TALLER_ENCLASE_EJ1
+	//algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
+	Definir ini, matriz Como Entero
+	Escribir "Digite cuantos numeros desea ingresar"
+	Leer ini
+	Dimension matriz[ini]
+	Para i<-0 Hasta ini-1 Con Paso 1 Hacer
+		Escribir "Digite el numero " i+1
+		Leer matriz[i]
+	Fin Para
+	Para i<-0 Hasta ini-1 Con Paso 1 Hacer
+		Si matriz[i]<>0 Entonces
+			Escribir matriz[i] Sin Saltar
+		FinSi
+	Fin Para
+	Para i<-0 Hasta ini-1 Con Paso 1 Hacer
+		Si matriz[i]=0 Entonces
+			Escribir matriz[i] Sin Saltar
+		FinSi
+	Fin Para
+FinAlgoritmo

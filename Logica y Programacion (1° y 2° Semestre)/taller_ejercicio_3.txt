@@ -1,0 +1,7 @@
+Algoritmo ejercicio_3
+	Definir num1, num2 Como Real
+	Escribir "¿Cuales numeros desea sumar?"
+	Leer num1, num2
+	ini=num1+num2
+	Escribir "El total de la suma seria : ", ini
+FinAlgoritmo

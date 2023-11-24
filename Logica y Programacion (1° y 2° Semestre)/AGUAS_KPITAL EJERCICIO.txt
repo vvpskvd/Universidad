@@ -1,0 +1,63 @@
+Algoritmo AGUAS_KPITAL
+	//Definiciones
+	Definir estrato Como Caracter
+	Definir cant_metro Como Entero
+	Definir crg_fijo1, crg_fijo2, crg_fijo3, crg_fijo4, crg_fijo5, crg_fijo6 Como Entero
+	Definir m_3_1, m_3_2, m_3_3, m_3_4, m_3_5, m_3_6 Como Entero
+	Definir cargo_basuras1,cargo_basuras2, cargo_basuras3, cargo_basuras4, cargo_basuras5, cargo_basuras6 Como Entero
+	Definir estrato_final_1, estrato_final_2, estrato_final_3, estrato_final_4, estrato_final_5, estrato_final_6 Como Entero
+	
+	//Base
+	Escribir "¿Cual es el estrato socioeconomico en el que se encuentra?"
+	Leer estrato
+	Escribir "¿Cuantos metros cubicos de agua consumio en el mes?"
+	Leer cant_metro
+	
+	//Operaciones estrato
+	crg_fijo1=25000
+	crg_fijo2=28000
+	crg_fijo3=30000
+	crg_fijo4=33000
+	crg_fijo5=37000
+	crg_fijo6=44000
+	
+	//Operaciones cargo basuras
+	cargo_basuras1=55000
+	cargo_basuras2=62000
+	cargo_basuras3=74000
+	cargo_basuras4=86000
+	cargo_basuras5=97000
+	cargo_basuras6=110000
+	
+	//Operaciones m3
+	m_3_1=2200
+	m_3_2=2350
+	m_3_3=2600
+	m_3_4=3400
+	m_3_5=3900
+	m_3_6=4800
+	
+	//Operaciones finales
+	Segun estrato Hacer
+		"1" o "uno" o "Uno" o "UNO":
+			estrato_final_1=(cant_metro*m_3_1)+crg_fijo1+cargo_basuras1
+			Escribir "Su facura mensual sale en $" estrato_final_1
+		"2" o "dos" o "Dos" o "DOS":
+			estrato_final_2=(cant_metro*m_3_2)+crg_fijo2+cargo_basuras2
+			Escribir "Su facura mensual sale en $" estrato_final_2
+		"3" o "tres" o "Tres" o "TRES":
+			estrato_final_3=(cant_metro*m_3_3)+crg_fijo3+cargo_basuras3
+			Escribir "Su facura mensual sale en $" estrato_final_3
+		"4" o "cuatro" o "Cuatro" o "CUATRO":
+			estrato_final_4=(cant_metro*m_3_4)+crg_fijo4+cargo_basuras4
+			Escribir "Su facura mensual sale en $" estrato_final_4
+		"5" o "cinco" o "Cinco" o "CINCO":
+			estrato_final_5=(cant_metro*m_3_5)+crg_fijo5+cargo_basuras5
+			Escribir "Su facura mensual sale en $" estrato_final_5
+		"6" o "seis" o "Seis" o "SEIS":
+			estrato_final_6=(cant_metro*m_3_6)+crg_fijo6+cargo_basuras6
+			Escribir "Su facura mensual sale en $" estrato_final_6
+		De Otro Modo:
+			Escribir "Ningun estrato valido seleccionado"
+	Fin Segun
+FinAlgoritmo

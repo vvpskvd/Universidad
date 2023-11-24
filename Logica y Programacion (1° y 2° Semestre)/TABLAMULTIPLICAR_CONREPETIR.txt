@@ -1,0 +1,12 @@
+Algoritmo TABLAMULTIPLICAR_CONREPETIR
+	Escribir "Que tabla desea multiplicar"
+	Leer numtabla
+	Escribir "Hasta que digito desea multiplicar"
+	Leer fintabla
+	num=1
+	Repetir
+		multi=numtabla * num
+		Escribir numtabla "*" num "=" multi
+		num=num+1
+	Hasta Que num > fintabla
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo algoritmo_calcular_prom
+	Escribir "Digite nota primer previo, 1° semestre "
+	Leer exam1
+	Escribir "Digite nota segundo previo, 1° semestre "
+	Leer exam2
+	Escribir "Digite nota tercera calificacion, 1° semestre "
+	Leer nota3
+	Escribir "Digite nota examen final, 1° semestre"
+	Leer examfinal
+	prom = (exam1+exam2+nota3+examfinal)/4
+	Escribir "Su promedio final es ", prom
+	imprimir(prom)
+FinAlgoritmo

@@ -1,0 +1,12 @@
+Algoritmo CALCULO_PRECIO
+	Definir precio_cl, preciocon_dc, preciofinal Como Real
+	Escribir "¿Cual es el precio que va a pagar el cliente?"
+	Leer precio_cl
+	Si precio_cl>1000 Entonces
+		preciocon_dc=precio_cl*0.2
+		preciofinal=precio_cl-preciocon_dc
+		Escribir "su precio final sera ", preciofinal
+	SiNo
+		Escribir "Su precio final sera ", precio_cl
+	Fin Si
+FinAlgoritmo

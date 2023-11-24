@@ -1,0 +1,6 @@
+Algoritmo ejercicio_2
+	Definir name Como Caracter
+	Escribir "Digite su primer nombre y primer apellido."
+	Leer name
+	Escribir "Bienvenido ", name " a PSeInt."
+FinAlgoritmo

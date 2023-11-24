@@ -1,0 +1,28 @@
+Algoritmo TALLER_ENCLASE_EJ2
+	//algoritmo que elimine todos los ceros.
+	Definir ini, matriz Como Entero
+	Escribir "Digite cuantos numeros desea ingresar"
+	Leer ini		
+	Dimension matriz[ini]
+	
+	Para i=0 Hasta ini-1 Con Paso 1 Hacer
+		Escribir "Digite el numero " i+1
+		Leer matriz[i]
+	Fin Para
+	
+	Para i=0 Hasta ini-1 Con Paso 1 Hacer
+		Para j=i+1 Hasta ini-1 Con Paso 1 Hacer
+			Si matriz[i] > matriz[j] Entonces
+				x = matriz[j]
+				matriz[j] = matriz[i]
+				matriz[i] = x
+			FinSi
+		Fin Para
+	Fin Para
+	
+	Para a=0 Hasta ini-1 Con Paso 1 Hacer
+		Si matriz[a]<>0 Entonces
+			Escribir matriz[a] " " Sin Saltar
+		FinSi
+	FinPara
+FinAlgoritmo

@@ -1,0 +1,14 @@
+Algoritmo ejercicio_10
+	cont=0
+	Escribir "Cuantas notas desea meter"
+	Leer n
+	Para i=0 Hasta n-1 Con Paso 1 Hacer
+		Escribir "Cual fue su nota?"
+		Leer nota
+		cont=cont+nota
+	Fin Para
+	op=cont/n
+	tn=op*0.2
+	Escribir op
+	Escribir tn
+FinAlgoritmo

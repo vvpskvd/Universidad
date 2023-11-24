@@ -1,0 +1,18 @@
+Algoritmo NUMERO_REAL_X
+	Definir numero_x como real
+	Escribir "Digite un numero real entre 0 y 46"
+	Leer numero_x
+	Si numero_x>=3.5 y numero_x<=7.8 Entonces
+		Escribir "El numero se encuentra entre 3.5 y 7.8"
+	SiNo
+		Si numero_x>=4.5 y numero_x<=9.3 Entonces
+			Escribir "El numero se encuentra entre 4.5  y 9.3"
+		SiNo
+			Si numero_x>=23.4 y numero_x<=45.3 Entonces
+				Escribir "El numero se encuentra entre 23.4 y 45.3"
+			SiNo
+				Escribir "El numero no se encuentra en ningun valor"
+			FinSi
+		FinSi
+	Fin Si
+FinAlgoritmo

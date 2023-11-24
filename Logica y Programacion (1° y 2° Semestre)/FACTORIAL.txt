@@ -1,0 +1,17 @@
+Algoritmo FACTORIAL
+	//Definiciones 
+	Definir num Como Entero
+	Definir num_fact, ini Como Real
+	num_fact = 1
+	
+	//Base
+	Escribir "Ingrese un número entero:"
+	Leer num
+
+	Para ini desde 1 hasta num Hacer
+		num_fact = num_fact * ini
+	Fin Para
+
+	Escribir "Factorial de ", num, "! = ", num_fact
+	
+FinAlgoritmo

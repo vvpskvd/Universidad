@@ -1,0 +1,10 @@
+Algoritmo calculo_par_impar
+	Escribir "Digita un numero entero "
+	Leer num1
+	resul = num1%2
+	Si resul==0 Entonces
+		Escribir "Si es par"
+	SiNo
+		Escribir "No es par"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo tablade_multiplicar
+	Definir multiplicador, vueltas Como Entero
+	
+	Escribir "Digite que tabla de multiplicar deseas ver?"
+	Leer multiplicador
+	Para vueltas<-1 Hasta 10 Con Paso 1 Hacer
+		Escribir multiplicador*vueltas
+	Fin Para
+FinAlgoritmo

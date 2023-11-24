@@ -1,0 +1,68 @@
+Algoritmo CALCULADORA
+	Definir operacion Como Caracter
+	Definir num1, num2, num_suma, num_resta, num_mult, num_div, num_mod, num_pow, num_sqrt, num_sqrt_2 Como Real
+	
+	Escribir "Digite lo que quiere realizar"
+	Escribir "Hay operaciones de: +(suma), -(resta), *(multiplicacion), /(division), %(mod), POW(potencia) y RC(raiz cuadrada)"
+	Leer operacion
+	Escribir "Digite dos numeros a operar"
+	Leer num1, num2
+	
+	//Suma
+	Si operacion="+" o operacion="suma" o operacion="Suma" o operacion="SUMA" Entonces
+		num_suma=num1+num2
+		Escribir "La operacion final es ", num_suma
+	SiNo
+	//Resta
+		Si operacion="-" o operacion="resta" o operacion="Resta" o operacion="RESTA" Entonces
+			num_resta=num1-num2
+			Escribir "La operacion final es ", num_resta
+		SiNo
+	//Multiplicacion
+			Si operacion="*" o operacion="multiplicacion" o operacion="Multiplicacion" o operacion="MULTIPLICACION" Entonces
+				num_mult=num1*num2
+				Escribir "La operacion final es ", num_mult
+			SiNo
+	//Division
+				Si operacion="/" o operacion="division" o operacion="Division" o operacion="DIVISION" Entonces
+					Si num2==0 Entonces
+						Escribir "NO SE PUEDE DIVIR EN 0"
+						Repetir
+							Escribir "Digite dos numeros enteros a operar"
+							Leer num1, num2
+							num_div=num1/num2
+							Escribir "La operacion final es ", num_div
+						Hasta Que num2<>0
+						Sino
+					num_div=num1/num2
+					Escribir "La operacion final es ", num_div
+				FinSi
+			Sino
+	//Mod
+					Si operacion="%" o operacion="mod" o operacion="Mod" o operacion="MOD" Entonces
+						num_mod=num1%num2
+						Escribir "La operacion final es ", num_mod
+					Sino
+	//Potencia
+						Si operacion="POW" o operacion="potencia" o operacion="Potencia" o operacion="POTENCIA" Entonces
+							num_pow=num1^num2
+							Escribir "La operacion final es ", num_pow
+						Sino
+	//Raiz
+							Si operacion="RC" o operacion="raiz cuadrada" o operacion="Raiz cuadrada" o operacion="Raiz Cuadrada" o operacion="RAIZ CUADRADA" Entonces
+								num_sqrt=RC(num1)
+								num_sqrt_2=RC(num2)
+								Escribir "La operacion final de la raiz cuadrada del numero 1 es ", num_sqrt
+								Escribir "La operacion final de la raiz cuadrada del numero 2 es ", num_sqrt_2
+							SiNo
+	//Ninguna opcion
+								Escribir "No esta el operando dentro de los parametros"
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+	
+FinAlgoritmo

@@ -1,0 +1,10 @@
+Algoritmo CALIFICACION
+	Definir calificacion_est Como Real
+	Escribir "Digite la calificacion del estudiante"
+	Leer calificacion_est
+	Escribir "Su promedio es ", calificacion_est
+	Si calificacion_est>=4.0 Entonces
+		Escribir "¡Felicitaciones, pasaste el promedio!"
+	SiNo
+	Fin Si
+FinAlgoritmo

@@ -1,0 +1,49 @@
+Algoritmo DEFINITIVA_PROMEDIO
+	Definir nota_est Como Real
+	Escribir "Digite la calificacion del estudiante."
+	Leer nota_est
+	Si nota_est<3.0 Entonces
+		Escribir "Su promedio es " nota_est
+		Escribir "Tiene un promedio Insuficiente."
+	SiNo
+		Si nota_est<=3.5 Entonces
+			Escribir "Su promedio es " nota_est
+			Escribir "Tiene un promedio Aceptable."
+		SiNo
+			Si nota_est<=4.0 Entonces
+				Escribir "Su promedio es " nota_est
+				Escribir "Tiene un promedio Sobresaliente."
+			SiNo
+				Si nota_est<=5.0 Entonces
+					Escribir "Su promedio es " nota_est
+					Escribir "Tiene un promedio Excelente."
+				SiNo
+					Repetir
+						Escribir "Calificacion NO valida"
+						Escribir "Digite la calificacion del estudiante."
+						Leer nota_est
+						Si nota_est<3.0 Entonces
+							Escribir "Su promedio es " nota_est
+							Escribir "Tiene un promedio Insuficiente."
+						SiNo
+							Si nota_est<=3.5 Entonces
+								Escribir "Su promedio es " nota_est
+								Escribir "Tiene un promedio Aceptable."
+							SiNo
+								Si nota_est<=4.0 Entonces
+									Escribir "Su promedio es " nota_est
+									Escribir "Tiene un promedio Sobresaliente."
+								SiNo
+									Si nota_est<=5.0 Entonces
+										Escribir "Su promedio es " nota_est
+										Escribir "Tiene un promedio Excelente."
+									FinSi
+								FinSi
+							FinSi
+						Fin Si
+					Hasta Que nota_est<5.1
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+FinAlgoritmo

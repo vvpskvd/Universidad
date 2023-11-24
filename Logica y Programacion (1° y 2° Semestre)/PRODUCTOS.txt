@@ -1,0 +1,39 @@
+Algoritmo PRODUCTOS
+	//Definiciones
+	Definir tp_dsc Como Cadena
+	Definir cant_cam, cant_pant, cant_zap, precio_cam, precio_pant, precio_zap, preciototal, preciodesc, compratotal Como Entero
+	
+	//Operaciones
+	Escribir "Escriba cuantas camisas desea"
+	Leer cant_cam
+	precio_cam = cant_cam*50000
+	Escribir "Escriba cuantos pantalones desea"
+	Leer cant_pant
+	precio_pant = cant_pant*25000
+	Escribir "Cuantos zapatos desea"
+	Leer cant_zap
+	precio_zap = cant_zap*10000
+	
+	compratotal = precio_cam + precio_zap + precio_pant
+	
+	//Tipos de descuento
+	Escribir "Cual es su tipo de descuento"
+	Leer tp_dsc
+	Segun tp_dsc Hacer
+		"1" o "UNO" o"Uno" o "uno":
+			preciodesc=compratotal*0.125
+			preciototal=compratotal-preciodesc
+			Escribir "Su tipo de descuento se aplico, dando un total de " preciototal
+		"2" o "DOS" o "Dos" o "dos":
+			preciodesc=compratotal*0.083
+			preciototal=compratotal-preciodesc
+			Escribir "Su tipo de descuento se aplico, dando un total de " preciototal
+		"3" o "TRES" o "Tres" o "tres":
+			preciodesc=compratotal*0.032
+			preciototal=compratotal-preciodesc
+			Escribir "Su tipo de descuento se aplico, dando un total de " preciototal
+		De Otro Modo:
+			Escribir "Su tipo de descuento no se encuentra disponible"
+	Fin Segun
+	
+FinAlgoritmo

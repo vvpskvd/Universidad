@@ -1,0 +1,20 @@
+Algoritmo contrasenas_contador
+	Definir clave Como Cadena
+	Definir errores Como Entero
+	
+	Escribir "Digite su clave"
+	Leer clave
+	
+	Mientras clave<>"1234" Hacer
+		
+		errores=errores+1
+		
+		Escribir "Clave erronea"
+		Escribir "Intente nuevamente"
+		Leer clave
+	Fin Mientras
+	
+	Escribir "Clave correcta"
+	Escribir "El total de intentos fallidos fue: ", errores
+	
+FinAlgoritmo

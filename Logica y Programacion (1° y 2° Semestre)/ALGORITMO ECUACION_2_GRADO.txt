@@ -1,0 +1,22 @@
+Algoritmo ECUACION_2_GRADO
+	Definir a, b, c, discr, x1, x2 Como Real
+		Escribir "Introduce el coeficiente a: "
+		Leer a
+		Escribir "Introduce el coeficiente b: "
+		Leer b
+		Escribir "Introduce el coeficiente c: "
+		Leer c
+		
+		discr = b^2 - 4*a*c
+		
+		Si discr < 0 Entonces
+			Escribir "La ecuación no tiene solucion real"
+		Sino
+			x1 = (-b + raiz(discr)) / (2*a)
+			x2 = (-b - raiz(discr)) / (2*a)
+			Escribir "Las soluciones son: "
+			Escribir "x1 = " x1
+			Escribir "x2 = " x2
+		FinSi
+		
+FinAlgoritmo

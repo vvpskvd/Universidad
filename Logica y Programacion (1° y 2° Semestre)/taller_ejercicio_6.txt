@@ -1,0 +1,10 @@
+Algoritmo ejercicio_6
+	Definir ini, num, n Como Real
+	Escribir "¿Hasta que numero desea mostrar?"
+	Leer n
+	ini=0
+	Para num<-1 Hasta n Con Paso 1 Hacer
+		ini=num
+		Escribir num
+	Fin Para
+FinAlgoritmo

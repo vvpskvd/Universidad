@@ -1,0 +1,54 @@
+Algoritmo EJERCICIO_16
+	//Definiciones
+	Definir num_digitos, dig_uno, dig_dos, dig_tres Como Real
+	Definir num_to_words Como Caracter
+	
+	//Digitamos el numero
+	Escribir "Digite un numero de 3 digitos"
+	Leer num_digitos
+	
+
+	
+	//Metodo
+	Si num_digitos<100 Entonces
+		Escribir "No se puede realizar la operacion, se necesita un numero de 3 digitos"
+		
+	Sino
+		
+			Si num_digitos<1000 Entonces
+				
+			//Operaciones
+			dig_uno=trunc(num_digitos/100)
+			dig_dos=trunc(num_digitos%100/10)
+			dig_tres=num_digitos%10
+			
+			Escribir "Si su numero es: " num_digitos
+			Escribir "Su primer digito es: " dig_uno
+			Escribir "Su segundo digito es: " dig_dos
+			Escribir "Su tercer digito es: " dig_tres
+			
+				Si dig_uno==dig_dos Entonces
+					Escribir "El 1° digito es igual al 2° digito"
+				SiNo
+					Escribir "El 1° digito no es igual al 2° digito"
+				FinSi
+			
+				Si dig_dos==dig_tres Entonces
+					Escribir "El 2° digito es igual al 3° digito"
+				SiNo
+					Escribir "El 2° digito no es igual al 3° digito"
+				FinSi
+			
+				Si dig_tres==dig_uno Entonces
+					Escribir "El 3° digito es igual al 1° digito"
+				SiNo
+					Escribir "El 3° digito no es igual al 1° digito"
+				FinSi
+			
+			SiNo
+				Escribir "El numero excede de 3 cifras"
+			FinSi
+		
+	FinSi
+		
+FinAlgoritmo

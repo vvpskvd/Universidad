@@ -1,0 +1,10 @@
+Algoritmo calculo_años
+	// cuantos meses transcurridos en 2 años cualquiera 
+	Escribir 'Digita el primer año a calcular'
+	Leer año_actual
+	Escribir 'Digita el segundo año a calcular'
+	Leer calculo_variable
+	calculofinal = calculo_variable-año_actual
+	calculofinal2=calculofinal*12
+	Escribir "La fecha especifica fue ", calculofinal2
+FinAlgoritmo

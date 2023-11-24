@@ -1,0 +1,23 @@
+Algoritmo MENSAJES
+	Definir msj Como Caracter
+	Escribir "Digite la clase del dispositivo"
+	Escribir "Clase A para ANDROID y clase I para IOS"
+	Leer msj
+	Si msj="A" Entonces
+		Escribir "Usted posee un dispositivo Android."
+		SiNo
+			Si msj="a" Entonces
+				Escribir "Usted posee un dispositivo Android."
+					Sino
+					Si msj="I" Entonces
+					Escribir "Usted posee un dispositivo IOs."
+						Sino
+						Si msj="i" Entonces
+						Escribir "Usted posee un dispositivo IOs."
+					SiNo
+						Escribir 'Opcion Invalida'
+					Finsi
+			FinSi
+		FinSi
+	FInSi
+FinAlgoritmo

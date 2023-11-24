@@ -1,0 +1,10 @@
+Algoritmo algoritmo_hipotenusa
+	Escribir 'Digite el primer cateto A '
+	Leer cateto1
+	Escribir 'Digite el segundo cateto B '
+	Leer cateto2
+	cateto1calculo = cateto1^2
+	cateto2calculo = cateto2^2.
+	hipotenusafinal = raiz(cateto1calculo+cateto2calculo)
+	Escribir 'La hipotenusa final es ',hipotenusafinal
+FinAlgoritmo
