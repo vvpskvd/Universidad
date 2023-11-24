@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694570339 source:e:\documents\github\c-plus-plus\taller_03\katanumber3\three.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

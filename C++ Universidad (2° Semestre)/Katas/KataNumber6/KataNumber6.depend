@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694572317 source:e:\documents\github\c-plus-plus\katas\katanumber6\six.cpp
+	<iostream>
+	<vector>
+	<string>
+

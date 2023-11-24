@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694570793 source:e:\documents\github\c-plus-plus\taller_03\katanumber5\five.cpp
+	<iostream>
+	<vector>
+	<numeric>
+

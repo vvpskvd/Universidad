@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694204773 source:e:\documents\github\c-plus-plus\taller_03\ejercicio5\ejercicio5.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

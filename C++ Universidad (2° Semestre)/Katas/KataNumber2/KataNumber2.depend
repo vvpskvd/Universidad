@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694381992 source:e:\documents\github\c-plus-plus\katas\katanumber2\two.cpp
+	<iostream>
+	<vector>
+	<string.h>
+

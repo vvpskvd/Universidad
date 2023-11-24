@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1697637487 source:e:\documents\github\c-plus-plus\evaluacion2\main.cpp
+	<iostream>
+	<math.h>
+
+1697658720 source:e:\documents\github\c-plus-plus\evaluacion2\previo2.cpp
+	<iostream>
+	<math.h>
+	<map>
+	<string>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694571237 source:e:\documents\github\c-plus-plus\katas\katanumber4\four.cpp
+	<iostream>
+	<sstream>
+	<vector>
+
